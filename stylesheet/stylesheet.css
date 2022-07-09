@@ -1,32 +1,38 @@
-body{
+body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-.container-type{
+
+.container-type {
     text-align: center;
     color: black;
     padding: 10%;
     border: 2px solid black;
     background-color: bisque;
-}    
-.container-type h1{
+    background-image: url();
+}
+
+.container-type h1 {
     font-weight: 800;
     margin: 2%;
     padding: 2%;
     border: 1px solid black;
 }
-.container-type h2{
+
+.container-type h2 {
     font-weight: 800;
     margin: 2%;
     padding: 2%;
     border: 1px solid black;
 }
-.container-type p{
+
+.container-type p {
     font-weight: 400;
     margin: 2%;
     padding: 2%;
 }
-.container-type a{
+
+.container-type a {
     text-decoration: none;
     background-color: bisque;
     padding: 10px 40px;
@@ -34,7 +40,8 @@ body{
     font-weight: 600;
     border-bottom: 1px solid black;
 }
-.container-type li{
+
+.container-type li {
     display: inline;
     margin: 1%;
     padding: 1%;
@@ -44,10 +51,12 @@ body{
     text-align: center;
     border-radius: 10px;
 }
-.container-type ul{
+
+.container-type ul {
     padding: 0;
 }
-.container-type input{
+
+.container-type input {
     border-bottom: 1px solid black;
     border-top: 0;
     border-left: 0;
@@ -58,16 +67,20 @@ body{
     font-weight: 400;
     padding: 10px 40px;
 }
-.choose-plans{
+
+.choose-plans {
     display: inline-flex;
 }
-.plan-items{
+
+.plan-items {
     text-align: left;
 }
-.plan-items h1{
+
+.plan-items h1 {
     text-align: center;
 }
-footer{
+
+footer {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
     text-align: center;
@@ -76,9 +89,11 @@ footer{
     padding: 0;
     border: 2px solid black;
 }
-footer p{
+
+footer p {
     margin: 2px;
 }
-::placeholder{
+
+::placeholder {
     padding: 5%;
 }
